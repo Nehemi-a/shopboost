@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+white-space: pre-wrap;
+  line-height: 1.6;
+  width: 80px;
+}
+
+table {
+    width: 100%;
+    border: solid 1px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+img {
+    width: 100px;
+    height: auto;
+}

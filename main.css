@@ -1,0 +1,32 @@
+h1 {
+  color: #130a0a;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  background-color: #09e4aa;
+  border-radius:70px;
+}
+  h2{
+  color: #ef0c18;
+    font-size:20px;
+    align-content: normal;
+  }
+img {
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+body{
+  text-align: left;
+  background-color: #dfb4b4;
+  align-content: center;
+  margin-left: 30px;
+
+}
+dt{
+  font-weight: bold;
+  color: maroon;
+}

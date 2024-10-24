@@ -1,0 +1,57 @@
+form{
+
+  background-color: rgb(138, 138, 236);
+  width: 600px ;
+  margin: auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #e60d0d;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+
+legend{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  text-shadow: 1px 1px 2px #e60d0d;
+}
+body{
+  background-image:url("img.png");
+  background-size: auto;
+  background-attachment: fixed;
+  align-content: center;
+
+}
+input[type=text],input[type=email],input[type=password],input[type=number],input[type=file],select,textarea,select,button,select,textarea{
+  padding: 10px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  width: 50%;
+  margin-bottom: 10px;
+  height: fit-content;
+  justify-content: center;
+  flex-direction: column;
+  text-align:right;
+display: table;
+} button{
+    background-color: red;
+    justify-content: center;
+    width: fit-content;
+    align-items: flex-end;
+    border-radius: 10px;
+margin-top: 10px;}
+button:hover{
+background-color: #08f4b8;
+  }
+label{
+  text-align: left;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  color: #040303;
+  text-shadow: 1px 1px 2px #e60d0d;
+  font-weight: bold;
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/contact%20usEF.png">
+    <title>Contact Us</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            max-width: 900px;
+            width: 100%;
+            height: 400px;
+        }
+        .contact-title, .contact-form {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0 20px;
+            font-weight: bolder;
+            font-size: 20px;
+        }
+        .contact-title {
+            text-align: center;
+            font-size: 30px;
+            color: #6a11cb;
+            margin-bottom: 10px;
+            margin-top: 40px;
+        }
+        .email-info {
+            color: #555;
+            font-size: 14px;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .email-note {
+            font-size: 12px;
+            color: #a376fb;
+            margin-top: 5px;
+            text-align: left;
+        }
+        label {
+            margin-top: 20px;
+            font-weight: bold;
+            color: #050505;
+            font-size: 16px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            background-color: #6a11cb;
+            width: 35%;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            padding: 12px 20px;
+            font-size: 16px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+        input[type="submit"]:hover {
+            background-color: #2575fc;
+            transform: translateY(-2px);
+
+        }
+        input[type="submit"]:active {
+            transform: translateY(0);
+        }
+        .contact-image {
+            margin-top: 20px;
+            max-width: 80%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="contact-title">
+            CONTACT US<br>
+            <p class="email-info">Or reach out manually to <a href="mailto:uifresh.net@gmail.com">uifresh.net@gmail.com</a></p>
+            <img src="paperlane.webp" alt="Paper plane" class="contact-image">
+        </div>
+        <div class="contact-form">
+            <form action="#" method="post">
+                <label for="email address">Email address</label>
+                <input type="email" name="email" id="email address" required="required">
+                <p class="email-note">We'll never share your email with anyone else.</p>
+
+                <label for="name">Your name</label>
+                <input type="text" name="name" id="name" required="required">
+
+                <label for="message">Your message</label>
+                <textarea name="message" rows="5" id="message" required="required"></textarea>
+
+                <input type="submit" value="Send Message">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

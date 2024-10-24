@@ -1,0 +1,30 @@
+ #heading1{
+   color: #09e4aa;
+   background-color: #130a0a;
+   border-radius: 400px;
+   text-align: center;
+ }
+#heading2{
+  color: #09e4aa;
+  background-color: #130a0a;
+  border-radius: 400px;
+  text-align: center;
+}
+#heading3{
+  color: #09e4aa;
+  background-color: #130a0a;
+  border-radius: 400px;
+  text-align: center;
+}
+#main{
+display: flex;
+text-align: center;}
+h1
+{text-align: center;
+color:red;
+}
+#android{
+text-align: center;}
+.paragraph{ color: #09e4aa;
+text-align:left;
+}

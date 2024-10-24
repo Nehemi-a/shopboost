@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Register</title>
+  <link rel="stylesheet" href="register.css">
+</head>
+<body>
+<form action="">
+<legend> CREATE AN ACCOUNT</legend> <br>
+  <label for="firstName"> First Name:</label>
+<input type="Text" id="firstName" name="firstName" placeholder="Enter First Name" required="required"><br><br>
+<label for="surname"> Surname:</label>
+<input type="Text" id="surname" name="surname" placeholder="Enter  surname" required="required"><br><br>
+  <label for="Email"> Email:</label>
+<input type="Text" id="Email" name="Email" placeholder="abcd@gmail.com" required="required"><br><br>
+  <label for="pwd"> password :</label>
+<input type="Text" id="pwd" name="pwd" placeholder="Enter  password" required="required"><br><br>
+  <label for="phone number"> phone number</label>
+<input type="number" id="phone number" name="phone number" placeholder="Enter your phone number" required="required"><br><br>
+  <label for="address"> home address</label>
+<input type="number" id="address" name="address" placeholder="Enter address" required="required"><br><br>
+   <label for="address"> Upload File</label>
+<input type="file" id="file" name="upload file" placeholder="" required="required"><br><br>
+   <label for="address"> Nationality</label>
+  <select name =" Nationality">
+        <option value=""disabled="disabled">--Choose Nationality-- </option>
+    <option value>Kenyan </option>
+     <option value>American </option>
+     <option value>Uganda </option>
+     <option value>Ethiopian </option>
+  </select><br><br>
+      <label>Chooose Gender</label> <br>
+  <input type="radio" id="male" name="gender" value="male"></input>
+  <label for="male"> Male</label><br>
+   <input type="radio" id="Female" name="gender" value="Female"></input>
+  <label for="male"> Female</label><br>
+ <input type="radio" id="Other" name="gender" value="Other"></input>
+  <label for="Other"> Other</label><br>
+  <label for="hobby"> Hobby</label><br>
+    <input type="checkbox" id="Footbal" name="Football">
+<label for="Footbal">Football</label><br>
+  <input type="checkbox" id="Volleyball" name="Volleyball">
+<label for="Volleyball">Volleyball</label><br><br>
+   <label for="description">Describe yourself:</label><br><br>
+  <textarea id="description" name="description" rows="5" cols="50" placeholder="Write something about yourself..."></textarea>
+  <br>
+   <label for="terms">
+    <input type="checkbox" id="terms" name="terms" required>
+    Do you agree with our terms and conditions?
+  </label>
+  <br>
+  <button type="submit">Submit</button>
+</form>
+</body>
+</html>
